@@ -27,15 +27,16 @@ This system performs multiple automated steps:
 
 The project simulates an **AI agent pipeline**:
 
-```
-Fetch Data → AI Analysis → Market Decision → Dashboard Visualization
-```
+---
+
+# 📊 Dashboard Preview
+
+![Dashboard](dashboard.png)
+![Bitcoin Chart](bitcoin_chart.png)
 
 ---
 
 # 📂 Project Structure
-
-```
 Agentic_AI_Learning
 │
 ├── crypto_data.json
@@ -47,101 +48,64 @@ Agentic_AI_Learning
 ├── day4_decision_agent.py
 ├── day5_crypto_dashboard.py
 │
-└── README.md
-```
+├── README.md
+└── requirements.txt
 
 ---
 
 # ⚙️ Technologies Used
 
-- Python
+- Python 3.10
 - Streamlit
 - REST APIs
 - JSON Data Storage
 - AI Text Generation
 - Data Visualization
+- Pandas & Matplotlib
 
 ---
 
 # 🚀 Installation
 
-Clone the repository
+1. Clone the repository:
 
-```
-git clone https://github.com/YOUR_USERNAME/Agentic_AI_Learning.git
-```
-
-Navigate to the project folder
-
-```
-cd Agentic_AI_Learning
-```
-
-Install required packages
-
-```
-pip install requests streamlit
-```
-
----
-
-# ▶️ Running the Project
-
-Step 1 — Fetch crypto data
-
-```
+```bash
+git clone https://github.com/YOUR_USERNAME/crypto-ai-dashboard.git
+cd crypto-ai-dashboard
+pip install -r requirements.txt
 python day1_crypto_fetch.py
-```
-
-Step 2 — Generate AI summary
-
-```
 python day2_llm_summary.py
-```
-
-Step 3 — Run the dashboard
-
-```
 streamlit run day5_crypto_dashboard.py
-```
-
----
-
-# 📊 Example Market Data
-
-```
 {
  "bitcoin": { "usd": 64049 },
  "ethereum": { "usd": 1869.37 },
  "dogecoin": { "usd": 0.088997 }
 }
-```
-
----
-
-# 🎯 Learning Objectives
+🎯 Learning Objectives
 
 This project demonstrates:
 
-- API data extraction
-- AI agent workflows
-- Market data automation
-- Real-time dashboard creation
-- Python data engineering fundamentals
+API data extraction
 
----
+AI agent workflows
 
-# 🔮 Future Improvements
+Market data automation
 
-- Real-time crypto alerts
-- Machine learning price prediction
-- Multi-crypto portfolio tracking
-- Cloud deployment (AWS / Docker)
+Real-time dashboard creation
 
----
+Python data engineering fundamentals
 
-# 👩‍💻 Author
+🔮 Future Improvements
 
-**Tisa Akhter**
+Real-time crypto alerts
 
+Machine learning price prediction
+
+Multi-crypto portfolio tracking
+
+Cloud deployment (AWS / Docker)
+
+👩‍💻 Author
+
+Tisa Akhter
 Python • AI • Data Engineering
